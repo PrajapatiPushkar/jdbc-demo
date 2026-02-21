@@ -27,4 +27,30 @@ It helps in understanding how Java interacts with databases using JDBC.
 
 ---
 
+
+---
+
+## ⚙️ Database Setup
+
+1. Install MySQL.
+2. Open MySQL and run the following commands:
+
+```sql
+CREATE DATABASE spring_fist;
+USE spring_fist;
+
+CREATE TABLE student (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+
+<---- CONSOLE OUTPUT  ---->
+Connected to the Database
+INSERTED: 1
+UPDATED: 1
+Student list:
+1 | John | john@gmail.com |
+DELETED: 1
+
 ## 🗂 Project Structure
